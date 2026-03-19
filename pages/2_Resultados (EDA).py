@@ -21,28 +21,28 @@ with st.container():
     st.header("🔍 1. Identificación y Contexto")
     contexto = st.text_area(
         "¿De qué se trata el dataset? (Deducción del origen, tema y propósito)",
-        placeholder="Ej: El dataset trata sobre accidentes de tránsito en Antioquia durante el año 2023...",
+        placeholder="Este conjunto de datos contiene información sobre los programas académicos y de ext de la Institución Universitaria Digital de Antioquia para el periodo 2024-02. Incluye detalles como el número de estudiantes matriculados, programas académicos ofrecidos, niveles de formación (técnico, tecnológico, profesional, posgrado)",
         height=150
     )
 
     st.header("❗ 2. Calidad de los Datos")
     calidad = st.text_area(
         "¿Qué encontraste sobre los datos faltantes y la limpieza?",
-        placeholder="Ej: Se observó que la columna 'Causa' tiene un 20% de nulos, lo cual podría sesgar...",
+        placeholder="Ej: Se observó que las columnas 'Numero materias inscritas, numero de materias aprobadas y estrato' tiene la misma cantidad de datos faltantes.",
         height=150
     )
 
     st.header("📈 3. Hallazgos Estadísticos Key")
     estadisticas = st.text_area(
         "Interpretación de los números y categorías principales (Medias, modas, etc.)",
-        placeholder="Ej: La mayoría de incidentes ocurren en el municipio de Medellín (Moda) con un promedio diario de...",
+        placeholder="La mayoria de la mediana y el minimo de escritos esta alrrededor dl 50 porciento de la media y el minimo de laas materias aprobadas se describe de tal manera que se inscriben 1 y el 0 porcentaje de los estudiantes deben, por lo cual muchos estudiantes incriben materias y las aprueban  y el numero de estudiantes es alto  ",
         height=150
     )
 
     st.header("💡 4. Conclusión Final")
     conclusion = st.text_area(
         "¿Cuál es el mensaje principal que nos dan estos datos?",
-        placeholder="Ej: El dataset revela una alta concentración de eventos en áreas urbanas...",
+        placeholder="El dataset revela que se encontraron 11930 registros y 4 llaves numericas en las cuales son solo una descriptiva como un dato int y las demas reprersentadas con texto ",
         height=100
     )
 
